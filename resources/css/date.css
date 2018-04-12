@@ -1,0 +1,75 @@
+.date_picker{
+    position: relative;
+}
+.date_picker>div{
+    float: left;
+}
+.date_picker .font{
+    margin: 0 10px;
+    font-size: 18px;
+    color: #444;
+}
+.date_picker .value{
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    border: solid 1px #ebebeb;
+    background-color: #f4f4f4;
+}
+.date_picker .value.width60{
+    width: 60px;
+}
+.width60{
+    width: 60px !important;
+}
+.date_picker .parent{
+    display: none;
+    position: relative;
+    width: 40px;
+    overflow: hidden;
+    border: solid 1px #ebebeb;
+    height: 346px;
+}
+.date_picker .center{
+    position: absolute;
+    left: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.date_picker .list{
+
+    /*padding: 8px 10px;*/
+
+    width: 40px;
+   /* text-align: center;*/
+    height: 346px;
+
+
+
+}
+/*
+.date_picker .list:hover{
+    overflow: auto;
+}
+*/
+
+.date_picker .list li{
+    text-align: center;
+    padding: 8px 0;
+    cursor: pointer;
+}
+.date_picker .list.width60 li{
+    width: 60px;
+}
+.date_picker .list li:hover{
+    color: #009eca;
+}
+option{
+    border: none !important;
+}
+@media screen and (max-device-width: 800px){
+    .date_picker .font {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,170 @@
+#footer {
+   /* width: 405px;*/
+    margin: auto;
+    overflow: hidden;
+    display: block;
+    top: 42px;
+    margin-bottom: 30px;
+
+}
+#footer div{
+    position: relative;
+}
+#footer>p>span>span{
+    display: inline-block;
+    line-height: 12px;
+    cursor: pointer;
+}
+#footer>p{
+    text-align: center;
+    font-size: 11px;
+}
+#footer>p span.privacy{
+    margin-left: 12px;
+    margin-right: 4px;
+}
+#footer>p span.use{
+    border-left: 1px solid rgb(85,85,85);
+    padding:0 4px;
+}
+#footer>p:nth-of-type(1) {
+    display: block;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 11px;
+    font-weight: normal;
+    color: #555;
+   /* width: 100%;*/
+    margin: 0px;
+
+}
+
+#footer .popupwrapper p{
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-size: 14px;
+    color: rgb(48, 60, 66);
+    width: auto;
+}
+
+#footer ul {
+    position: relative;
+    top:6px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-left: 12px;
+    /*width: 50%;*/
+}
+#footer>ul>li:first-child {
+    border: 0;
+    margin: 1px 0 3px 0;
+    padding-left: 0;
+}
+
+
+#footer>ul>li {
+    float: left;
+    border-left: 1px solid;
+    list-style: none;
+    color: #555;
+    margin: 1px 0 5px 8px;
+    padding: 0px 0 0px 8px;
+    line-height: 1;
+}
+#footer ul li a {
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 11px;
+    font-weight: normal;
+    color: #555;
+    display: block;
+    text-decoration: none !important;
+}
+/*#footer .popupwrapper{
+    display: none ;
+}*/
+#footer .popupwrapper.on {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 75px 0 0 0;
+    background: url(../images/bg_errorwrapper.png);
+}
+
+#footer .popupwrapper.on .popupalign .popup h2 {
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 18px;
+    font-weight: normal;
+    color: rgb(48, 60, 66);
+    margin: 0px 0px 6px;
+}
+#footer .popupwrapper {
+    top: -999999px;
+    z-index: 1000;
+}
+#footer .popupwrapper.on .popupalign {
+    width: 960px;
+    margin: auto;
+}
+#footer .popupwrapper.on .popupalign .popup {
+    background: #ffffff;
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    padding: 36px 24px 12px 24px;
+    margin: auto;
+
+}
+#footer .popupwrapper.on .popupalign .popup a.close {
+    position: absolute;
+    top: 9px;
+    right: 12px;
+    color: rgb(97, 97, 97);
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 14px;
+    background: url(../images/icon_close.png) right center no-repeat;
+    padding: 6px 32px 7px 0px;
+    cursor: pointer;
+}
+#footer .popupwrapper.on .popupalign .popup p {
+    font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 14px;
+    color: rgb(48, 60, 66);
+    width: auto;
+}
+#footer h3 {
+    color: rgb(107, 112, 105);
+    font-family: "Microsoft YaHei", 微软雅黑;
+    font-size: 14px;
+}
+@media (max-width: 580px){
+    #footer>p>span{
+        display: block;
+    }
+    #footer ul {
+        margin: 0 auto;
+        width: 105px;
+    }
+    #footer{
+        margin: 20px 0;
+        width: inherit;
+        /* padding-left: 20px;*/
+    }
+    #footer>p:nth-of-type(1){
+        text-align: center;
+    }
+    #footer .popupwrapper.on{
+        width: 94%;
+        margin: 8px 3%;
+    }
+    #footer .popupwrapper.on .popupalign{
+        width: inherit;
+    }
+    #footer .popupwrapper.on .popupalign .popup{
+        width: 80%!important;
+        height: 450px!important;
+        box-shadow: 1px 1px 10px rgba(0,0,0,.3)
+    }
+}
