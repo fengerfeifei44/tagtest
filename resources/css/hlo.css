@@ -253,7 +253,7 @@ input::-webkit-input-placeholder{
     box-sizing: border-box;
     width: 1200px;
     height: 832px;
-    padding: 100px 75px 100px 112px;
+    padding: 130px 75px 100px 112px;
 }
 #login .pull-left>img{
     /*margin-top: 30px;*/
