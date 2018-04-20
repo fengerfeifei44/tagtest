@@ -1,29 +1,26 @@
 /*以下为公共样式*/
 body{
     overflow-x: hidden;
-    background: url("../images/bg_no.png") no-repeat;
+    background: url("../images/bg_new.png") repeat-y;
+    background-size: 100% auto;
 }
-#bg{
+/*#bg{
     margin: 0 auto;
     align:center;
     width: 1920px;
-   /* height: 1080px;*/
+   !* height: 1080px;*!
     padding-top: 74px;
     background: url("../images/bg_gq.png") no-repeat;
-    /*background-size: 1920px auto;*/
-     zoom:0.88;
-/*      transform: scale(0.85,0.85); */
-/*      transform:translate(50px); */
-/*      -ms-transform:scale(0.85,0.85); */
-     
+    !*background-size: 1920px auto;*!
+
     background-position:-100px -200px;
-}
+}*/
 #box{
     position: relative;
     align:center;
     min-height: 830px;
     box-sizing: border-box;
-    margin: 0px auto 30px;
+    margin: 74px auto 30px;
     width: 1200px;
     border-radius: 18px;
     background: #fff;
@@ -252,8 +249,8 @@ input::-webkit-input-placeholder{
 #login .loginPage{
     box-sizing: border-box;
     width: 1200px;
-    height: 832px;
-    padding: 130px 75px 100px 112px;
+    /*height: 850px*/;
+    padding: 140px 75px 100px 112px;
 }
 #login .pull-left>img{
     /*margin-top: 30px;*/
@@ -701,17 +698,26 @@ font-size: 14px;
     display: inline-block;
     width: 35px;
     height: 43px;
-    background: url("../images/icon.png") no-repeat 0 -264px;
+   /* background: url("../images/icon.png") no-repeat 0 -264px;*/
     vertical-align: middle;
     background-size: 189px;
 }
+.conclusion_page .conclu_box .data_title .icon_d img{
+    width: 35px;
+}
 .conclusion_page .conclu_box .data_title .icon_d2{
-    background: url("../images/icon.png") no-repeat -37px -264px;
+   /* background: url("../images/icon.png") no-repeat -37px -264px;*/
     background-size: 189px;
 }
-.conclusion_page .conclu_box .data_title .icon_d3{
+.conclusion_page .conclu_box .data_title .icon_d2 img{
+    width: 100%;
+}
+/*.conclusion_page .conclu_box .data_title .icon_d3{
     background: url("../images/icon.png") no-repeat -74px -264px;
     background-size: 189px;
+}*/
+.conclusion_page .conclu_box .data_title .icon_d3 img{
+    width: 100%;
 }
 .conclusion_page .data_group{
     padding: 17px 0 19px 0;
@@ -738,7 +744,7 @@ font-size: 14px;
     display: inline-block;
     width: 24px;
     height: 24px;
-   background: url("../images/icon.png") no-repeat;
+   /*background: url("../images/icon.png") no-repeat;*/
     vertical-align: middle;
     background-size: 189px;
 }
@@ -748,11 +754,17 @@ font-size: 14px;
 .conclusion_page .two.green i{
     background-position: 0 -391px;
 }
+.conclusion_page .two.green i img{
+    width: 100%;
+}
 .conclusion_page .two.orange{
     color: #fb910a;
 }
 .conclusion_page .two.orange i{
     background-position: -72px -391px;
+}
+.conclusion_page .two.orange i img{
+    width: 100%;
 }
 .conclusion_page .two.blue{
     color: #009eca;
@@ -760,11 +772,17 @@ font-size: 14px;
 .conclusion_page .two.blue i{
     background-position: -24px -391px;
 }
+.conclusion_page .two.blue i img{
+    width: 100%;
+}
 .conclusion_page .two.dark_blue{
     color: #3679ff;
 }
 .conclusion_page .two.dark_blue i{
     background-position: -48px -391px;
+}
+.conclusion_page .two.dark_blue i img{
+    width: 100%;
 }
 .conclusion_page .three{
     font-size: 14px;
@@ -783,6 +801,13 @@ font-size: 14px;
     padding: 21px 11px;
 
 }
+.conclusion_page .data_group2 div.on{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border: 1px solid #ebebeb;
+    padding: 21px 11px;
+    width: 100% !important;
+}
 .conclusion_page .data_group2 li>p>span{
     display: inline-block;
 }
@@ -791,13 +816,17 @@ font-size: 14px;
     margin-left: 19px;
     margin-top: 10px;
 }
-.conclusion_page .data_group2 li:not(:first-child){
+/*.conclusion_page .data_group2 li:not(:first-child)*/
+.conclusion_page .data_group2 li{
     float: left;
     width: 450px;
 }
-.conclusion_page .data_group2 li:not(:first-child):nth-child(2n){
+.conclusion_page .data_group2 li:nth-of-type(2n+1){
     margin-right: 75px;
 }
+/*.conclusion_page .data_group2 li.on{
+    width: 100% !important;
+}*/
 .conclusion_page .mana{
     margin-top: 8px;
     margin-left: 25px;
@@ -809,7 +838,7 @@ font-size: 14px;
     font-size: 18px;
     color: #333;
 }
-.conclusion_page .mana li:first-child{
+.conclusion_page .mana li{
     color: #000;
 }
 .conclusion_page .huimei{

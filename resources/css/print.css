@@ -1,0 +1,22 @@
+#box{
+    width: 1000px;
+}
+#bg{
+    width: 1000px;
+}
+.conclusion_page .conclu_box{
+    width: auto;
+}
+
+.conclusion_page .data_group2 li:not(:first-child){
+    width: 45%;
+}
+.circle_btn .icon_3{
+    display: none;
+}
+.conclusion_page .complete>p{
+    width: 880px;
+}
+.circle_btn{
+    display: none;
+}
