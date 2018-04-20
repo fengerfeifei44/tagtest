@@ -1,7 +1,7 @@
 /*以下为公共样式*/
 body{
     overflow-x: hidden;
-    background: url("../images/bg.png") repeat-y;
+    background: url("../images/bg_new.png") repeat-y;
     background-size: 100% auto;
 }
 /*#bg{
