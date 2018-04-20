@@ -37,7 +37,9 @@
     margin: 0px;
 
 }
-
+#font12{
+    font-size: 12px;
+}
 #footer .popupwrapper p{
     font-family: "Microsoft YaHei", 微软雅黑;
     font-size: 14px;
