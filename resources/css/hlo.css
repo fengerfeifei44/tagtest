@@ -2,7 +2,7 @@
 body{
     overflow-x: hidden;
     background-color: #e5f9ff;
-    background:url("../images/bg_new.png") repeat-y;
+    background:url("../images/bg_new2.png") repeat-y;
     background-color: #e5f9ff;
     background-size: 100% auto;
 }
@@ -13,7 +13,7 @@ body{
 }
 .qiu{
     position: absolute;
-    bottom:56px;
+    bottom:-39px;
     right: -152px;
     z-index: -1;
 
@@ -265,7 +265,7 @@ input::-webkit-input-placeholder{
     box-sizing: border-box;
     width: 1200px;
     /*height: 850px*/;
-    padding: 199px 75px 177px 112px;
+    padding: 160px 75px 100px 112px;
 }
 #login .pull-left>img{
     /*margin-top: 30px;*/
