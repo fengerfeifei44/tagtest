@@ -20,3 +20,15 @@
 .circle_btn{
     display: none;
 }
+.input input[type=radio],.input input[type=checkbox]{
+    display: block;
+    position: relative;
+    top:22px;
+
+}
+#bg .qiu{
+    display: none;
+}
+.input label{
+
+}

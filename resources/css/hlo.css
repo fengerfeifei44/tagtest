@@ -1,8 +1,22 @@
 /*以下为公共样式*/
 body{
     overflow-x: hidden;
-    background: url("../images/bg_new.png") repeat-y;
+    background-color: #e5f9ff;
+    background:url("../images/bg_new.png") repeat-y;
+    background-color: #e5f9ff;
     background-size: 100% auto;
+}
+#bg{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.qiu{
+    position: absolute;
+    bottom:56px;
+    right: -152px;
+    z-index: -1;
+
 }
 /*#bg{
     margin: 0 auto;
@@ -25,6 +39,7 @@ body{
     border-radius: 18px;
     background: #fff;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    z-index: 0;
 }
 input[type=radio],input[type=checkbox]{
     display: none;
@@ -250,7 +265,7 @@ input::-webkit-input-placeholder{
     box-sizing: border-box;
     width: 1200px;
     /*height: 850px*/;
-    padding: 150px 75px 100px 112px;
+    padding: 199px 75px 177px 112px;
 }
 #login .pull-left>img{
     /*margin-top: 30px;*/
@@ -418,7 +433,7 @@ input::-webkit-input-placeholder{
 }
 #slider .copy{
     float: right;
-    width:6px;
+    width:4px;
     height: 13px;
     background: #fff;
     box-shadow: 3px 2px 0px rgba(255,255,255,1);
@@ -440,7 +455,7 @@ font-size: 14px;
     font-size: 14px;
     position: absolute;
     top:30px;
-    width: 18px;
+    width: 20px;
     color: #444;
 }
   form{
@@ -669,8 +684,11 @@ font-size: 14px;
     display: inline-block;
     width: 26px;
     height: 40px;
-    background: url("../images/icon.png") no-repeat -19px -330px;
+  /*  background: url("../images/icon.png") no-repeat -19px -330px;*/
     background-size: 189px;
+}
+.conclusion_page .complete>span img{
+    width: 100%;
 }
 .conclusion_page .complete>p{
     float: right;
@@ -897,6 +915,9 @@ font-size: 14px;
         height: inherit;
         background: none;
     }
+    #bg .qiu{
+        display: none;
+    }
     #login .loginPage{
         height: inherit;
     }
@@ -909,8 +930,8 @@ font-size: 14px;
     body,html{
         width: 100%;
     }
-  body{
-      background: #eff6f8;
+  body#conclusion{
+      background: #eff6f8 !important;
       background-size: auto auto;
 
   }
