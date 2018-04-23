@@ -826,6 +826,11 @@ font-size: 14px;
     padding: 21px 11px;
     width: 100% !important;
 }
+.conclusion_page .data_group2 div.on span{
+    display: inline-block;
+    margin-left: 19px;
+    margin-top: 10px;
+}
 .conclusion_page .data_group2 li>p>span{
     display: inline-block;
 }
