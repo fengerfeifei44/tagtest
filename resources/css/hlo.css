@@ -909,6 +909,9 @@ font-size: 14px;
   border-bottom: 1px solid #ebebeb;
 }
 @media screen and (max-device-width: 800px) {
+    .conclusion_page .data_group2 li:nth-of-type(2n+1){
+        margin-right: 0;
+    }
     #bg{
         padding-top: inherit;
         width: auto;
