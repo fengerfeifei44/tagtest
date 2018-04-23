@@ -912,6 +912,9 @@ font-size: 14px;
     .conclusion_page .data_group2 li:nth-of-type(2n+1){
         margin-right: 0;
     }
+    .conclusion_page .data_group2 div.on{
+        margin-bottom: 15px;
+    }
     #bg{
         padding-top: inherit;
         width: auto;
