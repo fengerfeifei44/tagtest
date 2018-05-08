@@ -1069,7 +1069,7 @@ font-size: 14px;
         margin-right: 15px;
     }
     .assess_pro{
-        display: none;
+       overflow-x: hidden;
         margin-bottom: 20px;
     }
     .mbottom71 {
