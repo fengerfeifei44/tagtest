@@ -134,6 +134,11 @@ input::-webkit-input-placeholder{
     cursor: pointer;
     -webkit-appearance: none;
 }
+.button .start_btn.small_btn{
+    background-color: #fff;
+    color: #009dca;
+    border: 1px solid #009dca;
+}
 .button .back{
     margin-top: 35px;
     border: none;
