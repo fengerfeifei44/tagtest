@@ -148,6 +148,9 @@ input::-webkit-input-placeholder{
 .button .start_btn:hover{
     background-color: #008db4;
 }
+.button .start_btn.small_btn:hover{
+    background-color: #fff;
+}
 .problem_title{
    padding-top: 60px;
     margin-left: 39px;
