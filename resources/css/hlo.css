@@ -924,7 +924,32 @@ font-size: 14px;
 .conclusion_page .toArticle{
     display: none;
 }
+.mini_btn{
+    display: none;
+}
 @media screen and (max-device-width: 800px) {
+    .mini_btn{
+        margin: 25px auto;
+        display: block;
+    }
+    .mini_btn span{
+        display: block;
+        text-align: center;
+    }
+    .mini_btn span.to_mini{
+        border-radius: 5px;
+        margin: 0 auto;
+        width: 70%;
+        height: 40px;
+        line-height: 40px;
+        color: #fff;
+        background: #009eca;
+
+    }
+    .mini_btn span.back_mini{
+        margin-top: 15px;
+        color: #999;
+    }
     .conclusion_page .toArticle{
         margin-top: 10px;
         display:block;
