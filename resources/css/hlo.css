@@ -928,9 +928,21 @@ font-size: 14px;
     display: none;
 }
 @media screen and (max-device-width: 800px) {
+
     .mini_btn{
-        margin: 25px auto;
+        margin: 30px auto;
         display: block;
+        text-align: center;
+    }
+    .mini_btn p{
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        line-height: 24px;
+    }
+    .mini_btn img{
+        margin: 25px 0;
+        width: 150px;
     }
     .mini_btn span{
         display: block;
