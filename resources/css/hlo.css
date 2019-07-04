@@ -972,8 +972,8 @@ font-size: 14px;
     .conclusion_page .toArticle li a{
         display: flex;
         justify-content: space-between;
-        padding: 5px 8px;
-        line-height: 20px;
+        padding: 6px 8px 4PX;
+        line-height: 26px;
         background: #f9f9f9;
         margin-bottom: 10px;
         color: #999;
