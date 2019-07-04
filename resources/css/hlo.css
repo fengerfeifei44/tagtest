@@ -972,15 +972,16 @@ font-size: 14px;
     .conclusion_page .toArticle li a{
         display: flex;
         justify-content: space-between;
-        padding: 6px 8px 4PX;
-        line-height: 26px;
+        
         background: #f9f9f9;
         margin-bottom: 10px;
         color: #999;
         text-decoration:none
     }
     .conclusion_page .toArticle li a p{
-        color:#999
+        color:#999;
+        line-height: 26px;
+        padding: 5px 8px 5px;
     }
     .conclusion_page .toArticle li:last-child{
         margin-bottom: 0;
