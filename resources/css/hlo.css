@@ -996,11 +996,11 @@ font-size: 14px;
         background: #999;
     }
     .conclusion_page .toArticle li img{
-        width: 8px;
-        height: 12px;
+        width: 12px;
+       /* height: 12px;*/
         vertical-align: middle;
-        position: relative;
-        top:2px;
+       /* position: relative;
+        top:2px;*/
     }
 
 
