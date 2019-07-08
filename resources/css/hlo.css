@@ -50,7 +50,7 @@ input::-webkit-input-placeholder{
 /*::-webkit-scrollbar{
     display:none;
 }*/
-/*颜色*/
+/*棰滆壊*/
 
 .color_9c{
     color: #9c9c9c;
@@ -152,7 +152,7 @@ input::-webkit-input-placeholder{
     background-color: #fff;
 }
 .problem_title{
-   padding-top: 60px;
+    padding-top: 60px;
     margin-left: 39px;
     font-size: 36px;
     letter-spacing: 1px;
@@ -222,7 +222,7 @@ input::-webkit-input-placeholder{
     margin-bottom: 71px;
 }
 .color_9c
-/*改ui样式*/
+    /*鏀箄i鏍峰紡*/
 .ui-progressbar{
     height: 6px;
 }
@@ -261,7 +261,7 @@ input::-webkit-input-placeholder{
 .ui-state-focus{
     outline: none;
 }
-/*以上为公共样式*/
+/*浠ヤ笂涓哄叕鍏辨牱寮�*/
 #login .pull-left{
     padding-top: 50px;
     float: left;
@@ -280,7 +280,7 @@ input::-webkit-input-placeholder{
 
 }
 #login .introduce{
-  /*  margin-top: 10px;*/
+    /*  margin-top: 10px;*/
     font-size: 20px;
     color: #009eca;
     text-align: center;
@@ -372,7 +372,7 @@ input::-webkit-input-placeholder{
     font-size: 14px;
     color: #fbaa8a;
 }
-/*#start 介绍说明页*/
+/*#start 浠嬬粛璇存槑椤�*/
 #start .start_page{
     padding: 60px 71px 71px 71px;
     padding-bottom: 150px!important;
@@ -405,7 +405,7 @@ input::-webkit-input-placeholder{
     margin-top: 28px;
     box-sizing: border-box;
     padding: 44px 42px 41px;
-   /* width: 1038px;*/
+    /* width: 1038px;*/
     height: 280px;
     border: solid 1px #ececec;
 }
@@ -420,7 +420,7 @@ input::-webkit-input-placeholder{
     font-size: 14px;
     color: #9c9c9c;
 }
-/*  问题页*/
+/*  闂椤�*/
 #slider .ui-widget.ui-widget-content{
     border: 1px solid #fff;
 }
@@ -448,14 +448,14 @@ input::-webkit-input-placeholder{
 
 }
 #slider .slider_value{
-   width: 700px;
+    width: 700px;
     margin-top: 45px;
 }
 #slider .slider_value>span.right{
     float: right;
 }
 #slider .slider_value>span>span{
-font-size: 14px;
+    font-size: 14px;
 }
 .amount{
     border:0;
@@ -466,26 +466,26 @@ font-size: 14px;
     width: 20px;
     color: #444;
 }
-  form{
+form{
     margin: 34px 99px 0 79px;
 
 }
 #start  form{
     margin: 0 !important;
 }
-   .problem_page{
+.problem_page{
     padding-bottom: 150px;
 }
-  form .sentence{
+form .sentence{
     margin: 26px 0;
     font-size: 20px;
     color: #333333;
 }
-  form .sentence .grey{
+form .sentence .grey{
     font-size: 14px;
     color: #9c9c9c;
 }
-  form .form_btn span{
+form .form_btn span{
     position: relative;
     top:3px;
     border: none;
@@ -493,45 +493,45 @@ font-size: 14px;
     color: #009eca;
     background: none;
 }
-  form .form_btn .back{
+form .form_btn .back{
     position: absolute;
-   bottom: 65px;
+    bottom: 65px;
     left: 79px;
     cursor: pointer;
 
 }
-  form .form_btn .continue{
+form .form_btn .continue{
     position: absolute;
     bottom: 65px;
     right: 100px;
     cursor: pointer;
 
 }
-  form .form_btn .back i{
+form .form_btn .back i{
     background: url("../images/icon.png") no-repeat 0 -117px;
     margin-right: 19px;
     background-size: 189px;
 
 
 }
-  form .form_btn .continue i{
+form .form_btn .continue i{
     background: url("../images/icon.png") no-repeat -39px -117px;
     margin-left: 19px;
     background-size: 189px;
 }
- .tel_date{
+.tel_date{
     display: none;
 }
-  form .date_picker{
+form .date_picker{
 
     padding-left: 50px;
 }
-  form .date_picker p.group{
+form .date_picker p.group{
     position: relative;
     display: inline-block;
     height: 500px;
 }
-  form .date_picker strong{
+form .date_picker strong{
     position: absolute;
     top:0;
     left: 0;
@@ -540,7 +540,7 @@ font-size: 14px;
     border: solid 1px #ebebeb;
     /*background: #fff;*/
 }
-  form .date_picker select{
+form .date_picker select{
     width: 40px;
     height: 25px;
     border: solid 1px #ebebeb;
@@ -549,75 +549,75 @@ font-size: 14px;
     vertical-align: middle;
 
 }
-  form .date_picker select.other{
+form .date_picker select.other{
     width: 60px;
 }
-  form .date_picker span{
-   margin: 0 10px;
+form .date_picker span{
+    margin: 0 10px;
     font-size: 18px;
     color: #444444;
 }
-  form label{
+form label{
     font-size: 18px;
     color: #444444;
 }
-  form .input{
+form .input{
     margin-left: 51px;
     margin-bottom: 16px;
 }
 
-  form p.input:last-of-type{
+form p.input:last-of-type{
     margin-bottom: 0px;
 }
 
 /*  form .input input{
     display: none;
 }*/
-  form .input label{
+form .input label{
     padding-left: 40px;
-      cursor: pointer;
+    cursor: pointer;
 }
-  form  input[type=radio]+label{
+form  input[type=radio]+label{
     background: url("../images/radio_not.png") no-repeat 0 2px;
     background-size: 20px ;
 
 }
-  form  input[type=checkbox]+label{
+form  input[type=checkbox]+label{
     background: url("../images/chek_not.png") no-repeat 0 2px;
     background-size: 20px ;
 }
-  form  input[type=radio]+label.on{
+form  input[type=radio]+label.on{
     background: url("../images/radio_on.png") no-repeat 0 2px;
     background-size: 20px ;
 }
-  form  input[type=checkbox]+label.on{
+form  input[type=checkbox]+label.on{
     background: url("../images/chek_on.png") no-repeat 0 2px;
     background-size: 20px ;
 }
-   .food_answer{
+.food_answer{
     margin: 27px 0;
-       margin-left: -5px;
+    margin-left: -5px;
     font-size: 22px;
     color: #333333;
 }
-  form .food .sentence{
+form .food .sentence{
     margin: 17px 0;
 }
-  form .food .food_group{
+form .food .food_group{
     padding-bottom: 17px;
     border-bottom: solid 1px #ebebeb;
 }
-   .weight_group{
+.weight_group{
     margin-left: 49px;
 }
- .detail{
-     margin-left: 48px;
-     margin-bottom: 18px;
-     margin-top: -9px;
+.detail{
+    margin-left: 48px;
+    margin-bottom: 18px;
+    margin-top: -9px;
     font-size: 14px;
     color: #9c9c9c;
 }
-  .weight_group label{
+.weight_group label{
     margin-right: 15px;
     display: inline-block;
     width: 35px;
@@ -631,60 +631,60 @@ font-size: 14px;
     border: solid 1px #ebebeb;
     cursor: pointer;
 }
-   .weight_group label:hover{
+.weight_group label:hover{
     color: #009fca;
     border: solid 1px #009dca;
 }
-   .weight_group label.on{
+.weight_group label.on{
     color: #009fca;
     border: solid 1px #009dca;
 }
-   .weight_group input[type=text]{
+.weight_group input[type=text]{
     margin-right: 10px;
     width: 40px;
     height: 25px;
     text-align: center;
     background-color: #f4f4f4;
     border: solid 1px #ebebeb;
-      -webkit-appearance: none;
+    -webkit-appearance: none;
 }
- .weight_group input[type=text].white{
+.weight_group input[type=text].white{
     background-color: #fff;
 }
-  .weight_group .mm{
+.weight_group .mm{
     width: inherit;
     height: inherit;
     font-size: 18px;
     color: #444444;
     border: none;
 }
-   .weight_group .mm.know{
+.weight_group .mm.know{
     margin-left: 40px;
     padding-left: 30px;
     background: url("../images/radio_not.png") no-repeat 0 4px;
     background-size: 20px;
 }
- .weight_group .mm.know.select{
+.weight_group .mm.know.select{
     background: url("../images/radio_on.png") no-repeat 0 4px;
     background-size: 20px;
 }
- .weight_group .mm.know.on{
+.weight_group .mm.know.on{
     color: #444444;
     border: none;
 }
- .weight_group .mm:hover{
+.weight_group .mm:hover{
     color: #444444;
     border: none;
 }
 
-/*#conclusion 结论页*/
+/*#conclusion 缁撹椤�*/
 #conclusion .conclusion_page{
 
     margin: 46px 40px 0;
 
 }
 .conclusion_page .complete{
-   margin-bottom: 45px;
+    margin-bottom: 45px;
 }
 .conclusion_page .complete>span{
     position: relative;
@@ -692,7 +692,7 @@ font-size: 14px;
     display: inline-block;
     width: 26px;
     height: 40px;
-  /*  background: url("../images/icon.png") no-repeat -19px -330px;*/
+    /*  background: url("../images/icon.png") no-repeat -19px -330px;*/
     background-size: 189px;
 }
 .conclusion_page .complete>span img{
@@ -724,7 +724,7 @@ font-size: 14px;
     display: inline-block;
     width: 35px;
     height: 43px;
-   /* background: url("../images/icon.png") no-repeat 0 -264px;*/
+    /* background: url("../images/icon.png") no-repeat 0 -264px;*/
     vertical-align: middle;
     background-size: 189px;
 }
@@ -732,7 +732,7 @@ font-size: 14px;
     width: 35px;
 }
 .conclusion_page .conclu_box .data_title .icon_d2{
-   /* background: url("../images/icon.png") no-repeat -37px -264px;*/
+    /* background: url("../images/icon.png") no-repeat -37px -264px;*/
     background-size: 189px;
 }
 .conclusion_page .conclu_box .data_title .icon_d2 img{
@@ -761,7 +761,7 @@ font-size: 14px;
 }
 .conclusion_page .two{
     margin: 16px 0 12px 0;
-   font-size: 18px;
+    font-size: 18px;
 }
 .conclusion_page .two i{
     position: relative;
@@ -770,7 +770,7 @@ font-size: 14px;
     display: inline-block;
     width: 24px;
     height: 24px;
-   /*background: url("../images/icon.png") no-repeat;*/
+    /*background: url("../images/icon.png") no-repeat;*/
     vertical-align: middle;
     background-size: 189px;
 }
@@ -876,12 +876,12 @@ font-size: 14px;
     padding: 27px 0;
 }
 .conclusion_page .huimei>p{
-   /* line-height: 36px;
-    text-align: center;
-    font-size: 16px;
-    color: #9c9c9c;*/
+    /* line-height: 36px;
+     text-align: center;
+     font-size: 16px;
+     color: #9c9c9c;*/
 }
-/*评估记录*/
+/*璇勪及璁板綍*/
 .per_infor{
     padding: 0  0 0 60px;
     line-height: 24px;
@@ -919,7 +919,7 @@ font-size: 14px;
 }
 .add_line{
     padding-bottom: 17px;
-  border-bottom: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
 }
 .conclusion_page .toArticle{
     display: none;
@@ -972,7 +972,7 @@ font-size: 14px;
     .conclusion_page .toArticle li a{
         display: flex;
         justify-content: space-between;
-        
+
         background: #f9f9f9;
         margin-bottom: 10px;
         color: #999;
@@ -998,10 +998,10 @@ font-size: 14px;
     }
     .conclusion_page .toArticle li img{
         width: 12px;
-       /* height: 12px;*/
+        /* height: 12px;*/
         vertical-align: middle;
-       /* position: relative;
-        top:2px;*/
+        /* position: relative;
+         top:2px;*/
     }
 
 
@@ -1032,11 +1032,11 @@ font-size: 14px;
     body,html{
         width: 100%;
     }
-  body#conclusion{
-      background: #eff6f8 !important;
-      background-size: auto auto;
+    body#conclusion{
+        background: #eff6f8 !important;
+        background-size: auto auto;
 
-  }
+    }
     .circle_btn .icon_3{
         display: none;
     }
@@ -1056,13 +1056,13 @@ font-size: 14px;
         font-size: 13px;
         margin-top: 0;
     }
-    /*评估报告页面*/
+    /*璇勪及鎶ュ憡椤甸潰*/
     .conclusion_page .data_group2 li:not(:first-child){
         width: auto;
     }
     .problem_title{
         margin-left: 0;
-       padding-top: 25px;
+        padding-top: 25px;
         text-align: center;
         font-size: 24px;
     }
@@ -1100,9 +1100,9 @@ font-size: 14px;
     .assess_pro .pro_group {
         margin-bottom: 15px;
     }
-     .food_answer{
+    .food_answer{
         margin: 0;
-         font-size: 16px;
+        font-size: 16px;
     }
     .circle{
         position: relative;
@@ -1113,9 +1113,9 @@ font-size: 14px;
     }
 
 
-     .weight_group label{
+    .weight_group label{
         margin-bottom: 10px;
-         margin-right: 8px;
+        margin-right: 8px;
     }
     #slider .slider{
         width: 100%;
@@ -1132,12 +1132,12 @@ font-size: 14px;
     #slider .slider_value>span>span {
         font-size: 12px;
     }
-     .weight_group .mm{
+    .weight_group .mm{
 
         font-size: 14px;
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
-     .weight_group .mm.know{
+    .weight_group .mm.know{
         float: right;
         margin-left: 0;
     }
@@ -1160,7 +1160,7 @@ font-size: 14px;
         margin-right: 15px;
     }
     .assess_pro{
-       overflow-x: hidden;
+        overflow-x: hidden;
         margin-bottom: 20px;
     }
     .mbottom71 {
@@ -1213,7 +1213,7 @@ font-size: 14px;
     }
     .conclusion_page .huimei{
         margin-top: 25px;
-     /*  border: 1px solid #009eca;*/
+        /*  border: 1px solid #009eca;*/
         /*background: #f7f7f7;*/
     }
     .conclusion_page .huimei {
@@ -1223,7 +1223,7 @@ font-size: 14px;
         line-height: 18px;
         font-size: 12px;
         margin-bottom: 4px;
-       /* text-align: left;*/
+        /* text-align: left;*/
 
     }
     .conclusion_page .huimei>p:nth-child(1){
@@ -1253,7 +1253,7 @@ font-size: 14px;
         text-align: left;
         line-height: 12px;
     }
-    /*登录页*/
+    /*鐧诲綍椤�*/
     #login .pull-left>img{
         display: none;
     }
@@ -1297,12 +1297,12 @@ font-size: 14px;
         font-size: 14px;
     }
     #login form {
-         margin-top: 15px;
+        margin-top: 15px;
     }
     #login form .text{
         margin-bottom: 15px;
     }
-    /*开始页*/
+    /*寮€濮嬮〉*/
     #start .start_page{
         padding: 20px;
     }
@@ -1430,5 +1430,4 @@ font-size: 14px;
         background-size: 19px;
     }
 }
-
 
